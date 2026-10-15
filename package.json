@@ -1,0 +1,14 @@
+{
+  "name": "marypilot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "typecheck": "tsc --noEmit",
+    "check:site": "node scripts/check-site.mjs"
+  },
+  "dependencies": {"next":"16.4.0","react":"^19.0.0","react-dom":"^19.0.0","lucide-react":"^0.468.0"},
+  "devDependencies": {"typescript":"^5.7.0","@types/node":"^22.0.0","@types/react":"^19.0.0","@types/react-dom":"^19.0.0"}
+}
